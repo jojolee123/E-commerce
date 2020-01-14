@@ -1,0 +1,33 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>用户登录</title>
+</head>
+
+<body>
+<form action="userlogin.php" name=form1 method=post>
+	用户登录
+用户名：<input type=text id=userid name=userid>
+密码：<input type=password id=password name=password>
+<input type=submit id=submit1 value='登录'>
+</form>
+
+<form action="useradd1.php" name=form2 method=post>
+	新用户注册
+用户ID：<input type=text id=userid name=userid>
+用户名：<input type=text id=username name=username>
+电话：<input type=text id=usermobile name=usermobile>
+邮箱：<input type=text id=useremail name=useremail>
+密码：<input type=password id=password name=password>
+用户类型：<select type=usertype id=usertype name=usertype>
+			<option value="0">买家</option>
+			<option value="1">卖家</option>
+		 </select>
+<!-- <input type=usertype id=usertype name=usertype> -->
+<input type=submit id=submit2 value='注册'>
+</form>
+
+</body>
+
+</html>
